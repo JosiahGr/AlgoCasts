@@ -1,0 +1,33 @@
+{
+  "name": "algocasts",
+  "version": "1.0.0",
+  "description": "Companion repo to a course on Udemy.com",
+  "main": "index.js",
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "cryptiles": "^4.1.3",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jest": "^21.15.0",
+    "jest": "^22.4.3",
+    "merge": "^1.2.1",
+    "randomatic": "^3.1.1"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosiahGr/AlgoCasts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosiahGr/AlgoCasts/issues"
+  },
+  "homepage": "https://github.com/JosiahGr/AlgoCasts#readme"
+}
