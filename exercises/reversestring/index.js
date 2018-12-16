@@ -6,7 +6,7 @@
 //   reverse('hello') === 'olleh'
 //   reverse('Greetings!') === '!sgniteerG'
 
-function reverse(str) {
+export default function reverse(str) {
   let newString = '';
   for (let i = 0; i < str.length; i++) {
     newString = `${str[i]}${newString}`;
@@ -14,4 +14,3 @@ function reverse(str) {
   return newString;
 }
 
-module.exports = reverse;
