@@ -1,4 +1,6 @@
-const fizzBuzz = require('./index');
+'use strict';
+
+import fizzBuzz from './fizzbuzz';
 
 test('fizzBuzz function is defined', () => {
   expect(fizzBuzz).toBeDefined();
