@@ -1,4 +1,6 @@
-const maxChar = require('./index');
+'use strict';
+
+import maxChar from './maxChar';
 
 test('maxChar function exists', () => {
   expect(typeof maxChar).toEqual('function');
