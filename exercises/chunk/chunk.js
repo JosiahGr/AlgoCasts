@@ -9,4 +9,21 @@
 // chunk([1, 2, 3, 4, 5], 10) --> [[ 1, 2, 3, 4, 5]]
 
 export default function chunk(array, size) {
+  let chunkCount = 1;
+  const chunkedArr = [];
+  const subArr = [];
+
+  for (let i = 0; i < array.size - 1; i++) {
+    if (chunkCount <= size) {
+      subArr.push(array[i]);
+      chunkCount += 1;
+    }
+
+    if (chunkCount === size) {
+      chunkCount = 0;
+      chunkedArr.push(subArr);
+    }
+  }
+  
+  return chunkedArr;
 }
